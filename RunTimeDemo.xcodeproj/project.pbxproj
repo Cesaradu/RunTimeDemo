@@ -13,6 +13,8 @@
 		A7AA5B8B20C7B6E500FFFA04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7AA5B8A20C7B6E500FFFA04 /* Assets.xcassets */; };
 		A7AA5B8E20C7B6E500FFFA04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AA5B8C20C7B6E500FFFA04 /* LaunchScreen.storyboard */; };
 		A7AA5B9120C7B6E500FFFA04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AA5B9020C7B6E500FFFA04 /* main.m */; };
+		A7AA5B9920C7B75800FFFA04 /* RunTimeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AA5B9820C7B75800FFFA04 /* RunTimeKit.m */; };
+		A7AA5B9C20C7B7D700FFFA04 /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AA5B9B20C7B7D700FFFA04 /* TestModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		A7AA5B8D20C7B6E500FFFA04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7AA5B8F20C7B6E500FFFA04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7AA5B9020C7B6E500FFFA04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7AA5B9720C7B75800FFFA04 /* RunTimeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunTimeKit.h; sourceTree = "<group>"; };
+		A7AA5B9820C7B75800FFFA04 /* RunTimeKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunTimeKit.m; sourceTree = "<group>"; };
+		A7AA5B9A20C7B7D700FFFA04 /* TestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		A7AA5B9B20C7B7D700FFFA04 /* TestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +68,15 @@
 				A7AA5B8220C7B6E500FFFA04 /* AppDelegate.m */,
 				A7AA5B8420C7B6E500FFFA04 /* ViewController.h */,
 				A7AA5B8520C7B6E500FFFA04 /* ViewController.m */,
+				A7AA5B9A20C7B7D700FFFA04 /* TestModel.h */,
+				A7AA5B9B20C7B7D700FFFA04 /* TestModel.m */,
 				A7AA5B8720C7B6E500FFFA04 /* Main.storyboard */,
 				A7AA5B8A20C7B6E500FFFA04 /* Assets.xcassets */,
 				A7AA5B8C20C7B6E500FFFA04 /* LaunchScreen.storyboard */,
 				A7AA5B8F20C7B6E500FFFA04 /* Info.plist */,
 				A7AA5B9020C7B6E500FFFA04 /* main.m */,
+				A7AA5B9720C7B75800FFFA04 /* RunTimeKit.h */,
+				A7AA5B9820C7B75800FFFA04 /* RunTimeKit.m */,
 			);
 			path = RunTimeDemo;
 			sourceTree = "<group>";
@@ -143,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7AA5B8620C7B6E500FFFA04 /* ViewController.m in Sources */,
+				A7AA5B9C20C7B7D700FFFA04 /* TestModel.m in Sources */,
 				A7AA5B9120C7B6E500FFFA04 /* main.m in Sources */,
 				A7AA5B8320C7B6E500FFFA04 /* AppDelegate.m in Sources */,
+				A7AA5B9920C7B75800FFFA04 /* RunTimeKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
